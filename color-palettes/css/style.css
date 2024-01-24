@@ -1,3 +1,7 @@
+cp1{
+    text-align:center;
+}
+
 #cp1c1{
     background-color: #380416;
     color: white;
@@ -24,7 +28,9 @@
 
 
 
-
+#cp2{
+    text-align: center;
+}
 
 #cp2c1{
     background-color: #11111E;
@@ -59,6 +65,9 @@
 
 
 
+#cp3{
+    text-align: center;
+}
 
 #cp3c1{
     background-color: #110C06;
