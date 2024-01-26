@@ -22,26 +22,37 @@
 }
 
 .blu{
-    background-color: #3d3df0;
-    border-color: #10106a;
+    background-image: url(../images/df96a4abd1707ceedbcca68a5220e811.jpg);
+    background-size: cover;
+    background-color: lightgray;
+    border-color: gray;
 }
 
 .org{
+    background-image: url(../images/b4b98741-017d-42a5-bab3-3909aa0404eb-1678829141486.webp);
+    background-size: cover;
     background-color: orange;
     border-color: #a8710b;
 }
 
 .ylw{
-    background-color: yellow;
-    border-color: #aaaa0b;
+    background-image: url(../images/steamuserimages-a.akamaihd.jpg);
+    background-size: cover;
+    background-color: pink;
+    border-color: #e06aa1;
 }
 
 .aqu{
+    background-image: url(../images/Skibidi_toilet_screenshot.webp.png);
+    background-size: cover;
     background-color: aqua;
-    border-color: #0b9999;
+    border-color: #4a4e4e;
 }
 
 .grn{
+    background-image: url(../images/Green.webp);
+    background-size: cover;
+    background-position: center;
     background-color: rgb(14, 224, 14);
     border-color: green;
 }
@@ -55,12 +66,14 @@
     background-image: url(../images/fnaf-1.png);
     background-size: cover;
     border-color: brown;
+    background-color: #4b3324;
 }
 
 .guh{
     background-image: url(../images/download.jpg);
     background-size: cover;
     border-color: #4b3324;
+    background-color: burlywood;
 }
 
 .nul{
