@@ -1,0 +1,69 @@
+/*
+    NOTE TO STUDENTS: 
+
+    This is the file you should be writing your CSS in 
+    for the Upside-down Tetris assignment.
+
+    Good luck, and have fun!
+*/
+
+.tetris-block{
+
+    padding: 20px;
+    border-width: 5px;
+    border-style: outset;
+    display: inline-block;
+
+}
+
+.vio{
+    background-color: #c96dc9;
+    border-color: #964596;
+}
+
+.blu{
+    background-color: #3d3df0;
+    border-color: #10106a;
+}
+
+.org{
+    background-color: orange;
+    border-color: #a8710b;
+}
+
+.ylw{
+    background-color: yellow;
+    border-color: #aaaa0b;
+}
+
+.aqu{
+    background-color: aqua;
+    border-color: #0b9999;
+}
+
+.grn{
+    background-color: rgb(14, 224, 14);
+    border-color: green;
+}
+
+.red{
+    background-color: #f01111;
+    border-color: #9a1515;
+}
+
+.ff{
+    background-image: url(../images/fnaf-1.png);
+    background-size: cover;
+    border-color: brown;
+}
+
+.guh{
+    background-image: url(../images/download.jpg);
+    background-size: cover;
+    border-color: #4b3324;
+}
+
+.nul{
+    background-color: #00000000;
+    border-color: #00000000;
+}
