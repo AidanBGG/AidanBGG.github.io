@@ -55,12 +55,14 @@
     background-image: url(../images/fnaf-1.png);
     background-size: cover;
     border-color: brown;
+    background-color: red;
 }
 
 .guh{
     background-image: url(../images/download.jpg);
     background-size: cover;
     border-color: #4b3324;
+    background-color: burlywood;
 }
 
 .nul{
