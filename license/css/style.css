@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap');
+
 /*
     NOTE TO STUDENTS: 
 
@@ -8,33 +10,35 @@
 */
 
 #license{
-    border: 3px red solid;
+    width: 600px;
+    border: 3px brown solid;
     background-color: white;
     padding: 12px;
+    border-radius: 24px;
+    box-shadow: 8px 8px 6px #00000057;
+    background: linear-gradient(135deg, burlywood, rgb(158, 102, 38));
 }
 
 #content{
-    border: 3px navy solid;
-    padding: 12px
+    vertical-align: top;
 }
 
 #content h1{
-    border: 3px red solid;
-    background-color: white;
     margin: 0px;
     color: navy;
+    font-size: 60px;
 }
 
+
 #left-side{
-    border: 3px red solid;
-    background-color: white;
     display: inline-block;
+    width: 65%
 }
 
 #right-side{
-    border: 3px red solid;
-    background-color: white;
     display: inline-block;
+    width: 34%;
+    text-align: center;
 }
 
 #left-side h4{
@@ -43,32 +47,42 @@
     color: white;
     text-align: center;
     margin: 0px;
+    margin-bottom: 7px;
+    padding: 6px;
+    font-size: 24px;
 }
 
 #id-and-expiration{
     display: block;
-    border: 3px green solid;
-}
-
-#address{
-    display: block;
-    border: 3px green solid;
-}
-
-#personal-info{
-    display: block;
-    border: 3px green solid;
+    text-align: left;
+    margin: 6px 0px;
 }
 
 #id-and-expiration div{
     display: inline-block;
-    border: 3px cyan solid;
+    color: navy;
+}
+
+#address{
+    display: block;
+    font-weight: bold;
+    font-size: 18px;
+    margin: 6px 0px;
+}
+
+#personal-info{
+    display: block;
+}
+
+#id-and-expiration span{
+    color: #b90f0f;
+    font-weight: bold;
 }
 
 #small-pic{
     display: inline-block;
-    border: 3px cyan solid;
-    width: 30%;
+    width: 90px;
+    opacity: 50%;
 }
 
 #small-pic img {
@@ -79,47 +93,48 @@
 
 #data-fields{
     display: inline-block;
-    border: 3px cyan solid;
-    height: 100%;
+    width: fit-content;
 }
 
 #data-left{
     display: inline-block;
-    border: 3px navy solid;
 }
 
 #data-right{
     display: inline-block;
-    border: 3px navy solid;
+}
+
+#data-left div, #data-right div {
+    margin: 0px 18px;
+    color: navy;
+}
+
+#data-left span, #data-right span {
+    color: #b90f0f;
 }
 
 #signature{
     display: block;
-    border: 3px navy solid;
-}
-
-#data-left div {
-    border: 3px red solid;
-}
-
-#data-right div {
-    border: 3px red solid;
+    font-size: 28px;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Ms Madi', cursive;
 }
 
 #right-side img {
-    border: 3px green solid;
+    width: 100%;
 }
 
 #donor-and-real-id{
-    border: 3px green solid;
+    color: navy;
+    font-size: 24px;
 }
 
 #donor{
     display: inline-block;
-    border: 3px cyan solid;
 }
 
 #real-id{
     display: inline-block;
-    border: 3px cyan solid;
+    color: #e6e67f;
 }
