@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    background-color: black;
+    width: 70%;
+}
+
+#album-cover{
+    text-align: center;
+}
+
+.heading{
+    text-align: center;
+}
+
+.list{
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
