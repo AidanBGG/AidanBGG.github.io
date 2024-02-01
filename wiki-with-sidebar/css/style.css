@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+body h1, body h2{
+    font-family: serif;
+}
+
+#columns{
+    display: flex;
+}
+
+#sidebar{
+    flex: 1;
+    min-width: 150px;
+}
+
+#main-content{
+    flex: 3;
+}
