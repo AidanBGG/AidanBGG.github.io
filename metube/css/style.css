@@ -22,6 +22,7 @@ body {
     padding: 0px 36px;
     border-bottom: 1px #ffffff solid;
     margin-bottom: 24px;
+    background-color: #111;
 }
 
 #header a {
@@ -34,18 +35,19 @@ body {
 }
 
 #header #tube {
-    color: #232125;
-    background-color: rgb(255, 255, 255);
+    color: #111;
+    background-color: #ffffff;
     padding: 4px;
     border-radius: 12px;
 }
 
 #header #tube:hover {
-    letter-spacing: 1mm;
+    letter-spacing: 0.5mm;
 }
 
 #sidebar {
     grid-area: sidebar;
+    border-top: 1px #ffffff solid;
 }
 
 #sidebar ul{
@@ -53,6 +55,7 @@ body {
     padding: 12px 0px;
     margin: 0px;
     border-bottom: 1px solid #ffffff;
+    border-right: 1px #ffffff solid;
 }
 
 #sidebar ul a {
@@ -64,7 +67,7 @@ body {
 }
 
 #sidebar ul a:hover {
-    background-color: coral;
+    background-color: rgb(87, 87, 87);
     border-radius: 12px;
 }
 
@@ -72,6 +75,7 @@ body {
     grid-area: content;
     display: flex;
     flex-wrap: wrap;
+    padding: 24px;
 }
 
 .metube-item {
@@ -93,7 +97,7 @@ body {
 
 .metube-item h4 a {
     text-decoration: none;
-    color: #111;
+    color: #ffffff;
 }
 
 .metube-item h4 a:hover {
@@ -103,11 +107,35 @@ body {
 .metube-item .video-details {
     margin: 8px;
     font-size: 14px;
+    color: #c2c2c2;
 }
 
-.metube-item .thumbnail img {
-    height: 100%;
-    width: 100%;
-    aspect-ratio: 16 / 9;
-    border-radius: 8px;
+.metube-item#m1 .thumbnail {
+    background-image: url(../images/hq720.jpg);
+    background-size: cover;
+}
+
+.metube-item#m2 .thumbnail {
+    background-image: url(../images/hqdefault.jpg);
+    background-size: cover;
+}
+
+.metube-item#m3 .thumbnail {
+    background-image: url(../images/maxresdefault-1.jpg);
+    background-size: cover;
+}
+
+.metube-item#m4 .thumbnail {
+    background-image: url(../images/maxresdefault-2.jpg);
+    background-size: cover;
+}
+
+.metube-item#m5 .thumbnail {
+    background-image: url(../images/maxresdefault.jpg);
+    background-size: cover;
+}
+
+.metube-item#m6 .thumbnail {
+    background-image: url(../images/sddefault.jpg);
+    background-size: cover;
 }
