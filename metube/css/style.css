@@ -5,6 +5,7 @@
 body {
     margin: 0px;
     font-family: sans-serif;
+    background-color: #232125;
 }
 
 #grid-layout {
@@ -19,6 +20,8 @@ body {
 #header {
     grid-area: header;
     padding: 0px 36px;
+    border-bottom: 1px #ffffff solid;
+    margin-bottom: 24px;
 }
 
 #header a {
@@ -26,12 +29,13 @@ body {
 }
 
 #header #me {
-    color: #111;
+    color: #ffffff;
+    margin-right: 3px;
 }
 
 #header #tube {
-    color:white;
-    background-color: coral;
+    color: #232125;
+    background-color: rgb(255, 255, 255);
     padding: 4px;
     border-radius: 12px;
 }
@@ -48,14 +52,15 @@ body {
     list-style-type: none;
     padding: 12px 0px;
     margin: 0px;
-    border-bottom: 1px solid #aaa;
+    border-bottom: 1px solid #ffffff;
 }
 
 #sidebar ul a {
     text-decoration: none;
-    color: #111;
+    color: white;
     display: block;
     padding: 12px;
+    border-bottom: 1px #767676 solid;
 }
 
 #sidebar ul a:hover {
@@ -71,13 +76,14 @@ body {
 
 .metube-item {
     flex: 250px;
+    max-width: 300px;
     margin-right: 12px;
     margin-bottom: 24px;
 }
 
 .metube-item .thumbnail {
     border-radius: 8px;
-    background: radial-gradient(at top left, pink, coral);
+    background: radial-gradient(at top left, #978888, #18184b);
     aspect-ratio: 16 / 9;
 }
 
@@ -97,4 +103,11 @@ body {
 .metube-item .video-details {
     margin: 8px;
     font-size: 14px;
+}
+
+.metube-item .thumbnail img {
+    height: 100%;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    border-radius: 8px;
 }
