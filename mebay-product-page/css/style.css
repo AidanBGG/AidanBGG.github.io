@@ -8,5 +8,130 @@ body {
 }
 
 #main-content {
+    display: grid;
+    grid-template-columns: 0.5fr 2.5fr 2fr 1.5fr 0.5fr;
+    grid-template-areas: ". p-image p-info s-info .";
+}
+
+#header {
+    text-align: center;
+    background-color: white;
+    margin-top: 0px;
+    padding: 1px;
+    font-family: Georgia;
+    margin-bottom: 24px;
+    border-bottom: 2px gray solid;
+    border-radius: 8px;
+}
+
+#red {
+    color: red;
+}
+
+#orange {
+    color: orange;
+}
+
+#yellow {
+    color: #e1e125;
+}
+
+#green {
+    color: #0eb30e;
+}
+
+#blue {
+    color: blue;
+}
+
+#purple {
+    color: #ad00c7;
+}
+
+#p-image {
+    grid-area: p-image;
+    margin: 24px;
+    background-image: url(../images/s-l1200.jpg);
+    background-size: contain;
+    background-position: 0px -2px;
+    background-color: aliceblue;
+    aspect-ratio: 4 / 5.4;
+}
+
+#p-info {
+    grid-area: p-info;
+    font-family: arial;
     
+}
+
+#p-info h4 {
+    font-weight: normal;
+}
+
+#p-info #item-condition {
+    font-weight: bold;
+}
+
+#p-info #quantity-number {
+    background-color: #cdcdcd;
+    padding: 5px;
+    border: 1px black solid;
+    margin: 0px 5px;
+}
+
+#p-info #buy-button {
+    background-color: rgb(79, 79, 242);
+    color: white;
+    width: 75%;
+    text-align: center;
+    padding: 1px 0px;
+    border-radius: 24px;
+    margin-bottom: 6px;
+}
+
+#p-info #add-cart {
+    background-color: rgb(14, 191, 218);
+    color: white;
+    width: 75%;
+    text-align: center;
+    padding: 1px 0px;
+    border-radius: 24px;
+    margin-bottom: 6px;
+}
+
+#p-info #watchlist {
+    background-color: white;
+    color: rgb(79, 79, 242);
+    width: 75%;
+    text-align: center;
+    padding: 1px 0px;
+    border-radius: 24px;
+    border: 2px rgb(79, 79, 242) solid;
+}
+
+#p-info #sold {
+    color: red;
+}
+
+#s-info {
+    grid-area: s-info;
+    color: gray;
+}
+
+#s-info h4 {
+    font-weight: normal;
+}
+
+#s-info .bold {
+    color: black;
+    font-weight: bold;
+}
+
+#s-info .thing-idk {
+    color: rgb(79, 79, 242);
+    font-weight: bold;
+}
+
+#s-info a {
+    color: gray;
 }
