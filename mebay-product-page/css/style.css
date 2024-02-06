@@ -61,7 +61,7 @@ body {
 #p-info {
     grid-area: p-info;
     font-family: arial;
-    
+    padding: 12px;
 }
 
 #p-info h4 {
