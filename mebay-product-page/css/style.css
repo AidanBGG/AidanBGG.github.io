@@ -5,6 +5,7 @@
 body {
     margin: 0px;
     font-family: sans-serif;
+    background-color: #ffffff;
 }
 
 #main-content {
@@ -61,7 +62,7 @@ body {
 #p-info {
     grid-area: p-info;
     font-family: arial;
-    padding: 12px;
+    padding: 0px 24px;
 }
 
 #p-info h4 {
