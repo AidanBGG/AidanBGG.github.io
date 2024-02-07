@@ -114,6 +114,10 @@ body {
     margin-bottom: 4px;
 }
 
+.metube-item div.thumbnail {
+    background-color: #111;
+}
+
 .metube-item#m1 .thumbnail {
     background-image: url(../images/hq720.jpg);
     background-size: cover;
