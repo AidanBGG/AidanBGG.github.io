@@ -31,6 +31,35 @@ body{
     margin-right: auto;
 }
 
+#buy-now {
+    text-align: center;
+    margin: 48px 0px;
+}
+
+#buy-button {
+    font-size: 40px;
+    background-color: white;
+    color: black;
+    width: 250px;
+    height: 70px;
+    padding: 40px 0px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 48px;
+}
+
+#btw {
+    font-family: 'Courier New';
+    font-size: 16px;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
 #listings-other {
     background-color: rgb(255, 255, 255);
     padding: 24px;
@@ -41,6 +70,7 @@ body{
     color: black;
     background-image: url(../images/white-texture.jpg);
     background-size: cover;
+    margin-bottom: 96px;
 }
 
 #bleach, #listing {
