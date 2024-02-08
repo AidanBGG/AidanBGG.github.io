@@ -1,0 +1,28 @@
+/*
+    Write your CSS for the assignment here.
+
+    You shouldn't need to modify the HTML;
+    however, you are allowed to. 
+    
+    Just be aware that you may break some
+    of the setup.css styling if you do so.
+*/
+
+.card-style-2 {
+    margin-top: 24px;
+    width: 350px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 24px;
+    height: 530px;
+    border-radius: 36px;
+}
+
+.card-style-2 img {
+    max-width: 50%;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
