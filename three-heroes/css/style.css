@@ -68,7 +68,7 @@ body {
 #h2c a {
     margin-right: 15%;
     width: fit-content;
-    background-color: orange;
+    background-color: #ba0c0c;
     display: inline-block;
     color: white;
     text-decoration: none;
@@ -81,31 +81,32 @@ body {
 }
 
 #h3c {
-    background-image: url(../images/pexels-macro-photography-12561247.jpg);
+    background-image: url(../images/pexels-pixabay-40875.jpg);
     height: 100vh;
     background-size: cover;
-    background-position: center top;
+    background-position: center center;
     display: flex;
     flex-direction: column;
     color: white;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
 }
 
 #h3c h1 {
     margin-top: 10%;
-    margin-left: 5%;
     font-size: 3vw;
 }
 
 #h3c h2 {
-    margin-left: 5%;
-    font-size: 2vw;
+    font-size: 2.5vw;
     font-weight: lighter;
 }
 
 #h3c a {
-    margin-left: 5%;
-    width: fit-content;
-    background-color: orange;
+    margin-bottom: 50%;
+    width: 100%;
+    background-color: rgb(0, 110, 48);
     display: inline-block;
     color: white;
     text-decoration: none;
