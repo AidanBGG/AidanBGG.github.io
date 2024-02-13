@@ -6,3 +6,19 @@ body {
     margin: 0px;
     font-family: sans-serif;
 }
+
+#main-content {
+    background-image: url(../images/backdrop.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    margin: 0px;
+    padding: 12px;
+}
+
+#header {
+    color: white;
+    text-align: center;
+}
+
