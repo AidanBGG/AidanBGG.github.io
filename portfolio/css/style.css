@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap');
 
 
 * {
@@ -16,12 +16,13 @@ body {
     color: white;
 }
 
-#everything {
+.everything {
     text-align: center;
 }
 
-#header {
+#header, #gal-header {
     margin-bottom: 48px;
+    font-family: "Hanken Grotesk", sans-serif;
 }
 
 #header #name {
@@ -77,22 +78,37 @@ body {
 
 .card h3 {
     font-size: 24px;
-    color: black;
+    color: #111;
 }
 
-.card .card-but {
-    background-color: black;
-    padding: 12px;
-    width: 80%;
-    text-align: center;
-    border-radius: 5px;
-}
-
-.card .card-but a {
+a.card-but {
     color: white;
     text-decoration: none;
     font-size: 20px;
+    background-color: #222;
+    padding: 12px;
+    width: 80%;
+    border-radius: 5px;
+    height: 50px;
+    border: #222 3px solid;
+    transition: 
+        background-color 0.2s,
+        color 0.2s,
+        border-color 0.2s
+    ;
 }
+
+a.card-but:hover {
+    color: #222;
+    background-color: white;
+    box-shadow: 0px 0px 6px #00000047;
+}
+
+a.card-but:active {
+    color: white;
+    background-color: #bebebe;
+}
+
 
 #card1-img {
     background-image: url(../images/portme.jpg);
@@ -107,4 +123,45 @@ body {
 #card3-img {
     background-image: url(../images/portme-3.jpg);
     background-size: cover;
+}
+
+#galdiv {
+    margin-top: 48px;
+    columns: 3 auto;
+    column-gap: 12px;
+    width: 80%;
+    margin: 0px auto;
+}
+
+#galdiv img {
+    width: 100%;
+    margin-bottom: 12px;
+    background-color: black;
+}
+
+#gal-header {
+    margin-bottom: 48px;
+}
+
+#but-space-round {
+    margin-bottom: 48px;
+}
+
+#gal-ret {
+    background-color: white;
+    color: #111;
+    border: 3px solid white;
+}
+
+#gal-ret:hover {
+    box-shadow: 0px 0px 6px #ffffff63;
+    background-color: #222;
+    border-color: #222;
+    color: white;
+}
+
+#gal-ret:active {
+    background-color: white;
+    border-color: white;
+    color: #464646;
 }
