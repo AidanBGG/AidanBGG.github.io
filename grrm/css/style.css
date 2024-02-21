@@ -459,7 +459,8 @@ body {
         font-size: 52px;
     }
     #nav {
-       flex-wrap: wrap;
+        display: flex;
+        flex-wrap: wrap;
     }
 }
 
@@ -467,7 +468,7 @@ body {
 
 /* phone breakpoint */
 
-@media screen and (max-width: 800px) and (min-width: 400px) {
+@media screen and (max-width: 800px) {
     #grid-layout {
         grid-template-columns: 1fr;
         grid-template-areas:
@@ -497,4 +498,43 @@ body {
     #nav {
        flex-wrap: wrap;
     }
+    #nav a {
+        flex: 200px;
+    }
+
+    #card-3 {
+        margin: 0px;
+        padding: 0px;
+    }
+    #card-2 {
+        margin: 0px;
+        padding: 0px;
+    }
+    #card-1 {
+        margin: 0px;
+        padding: 0px;
+    }
+    #banner-container {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    #aside {
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    #next-publication-container {
+        margin: 0px;
+        
+    }
+    
+    .side-by-side {
+        margin: 0px;
+    }
+
+    #main {
+        margin: 0px;
+    }
+
 }
