@@ -95,7 +95,8 @@ body {
     transition:
         background-color 0.25s,
         transform 0.25s,
-        color 0.25s
+        color 0.25s,
+        box-shadow 0.25s
     ;
 }
 
@@ -107,24 +108,28 @@ body {
     background-color: #941919;
     transform: scale(105%);
     color: white;
+    box-shadow: 0px 0px 16px #9419199e;
 }
 
 #cg2c2:hover {
     background-color: #3b9048;
     transform: scale(105%);
     color: white;
+    box-shadow: 0px 0px 16px #3b90489e;
 }
 
 #cg2c3:hover {
     background-color: #3f7787;
     transform: scale(105%);
     color: white;
+    box-shadow: 0px 0px 16px #3f77879e;
 }
 
 #cg2c4:hover {
     background-color: #6a4578;
     transform: scale(105%);
     color: white;
+    box-shadow: 0px 0px 16px #6a45789e;
 }
 
 
