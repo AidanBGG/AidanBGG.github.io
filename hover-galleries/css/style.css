@@ -1,0 +1,156 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    margin: 0px;
+}
+
+.cgh {
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+.cg {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    flex-wrap: wrap;
+    margin-bottom: 48px;
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+#cg1 .card {
+    border: 3px solid black;
+    padding: 12px;
+    text-align: center;
+    width: 200px;
+    height: 250px;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#cg2 .card {
+    border: 3px solid black;
+    padding: 12px;
+    text-align: center;
+    width: 230px;
+    height: fit-content;
+}
+
+#cg2 .card p {
+    font-size: 14px;
+}
+
+#cg2 .card a {
+    display: block;
+    text-decoration: none;
+    border: 3px solid black;
+    padding: 12px;
+    color: black;
+}
+
+#cg3 .card {
+    border: 3px solid black;
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    border-radius: 56px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#cg3 .cg3content {
+    background-color: #ffffffc8;
+    width: 100%;
+    height: 100%;
+    border-radius: 56px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+    opacity: 0;
+    transition:
+        visibility 0.25s,
+        opacity 0.25s
+    ;
+}
+
+#cg3 .cg3content h2 {
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+#cg3 .cg3content p {
+    font-size: 12px;
+}
+
+#cg3c1 {
+    background-image: url(../images/PeashooterGW1.webp);
+    background-position: center top;
+    object-fit: cover;
+    background-size: contain;
+}
+
+#cg3c1 .cg3content h2 {
+    color: #01a101;
+}
+
+#cg3c2 .cg3content h2 {
+    color: #a48007;
+}
+
+#cg3c3 .cg3content h2 {
+    color: #8507c9;
+}
+
+#cg3c4 .cg3content h2 {
+    color: #762823;
+}
+
+#cg3c2 {
+    background-image: url(../images/SunflowerGW1.webp);
+    object-fit: cover;
+    background-size: contain;
+}
+
+#cg3c3 {
+    background-image: url(../images/ChomperGW1.webp);
+    object-fit: cover;
+    background-size: contain;
+}
+
+#cg3c4 {
+    background-image: url(../images/CactusGW1.webp);
+    object-fit: cover;
+    background-size: contain;
+}
+
+#cg3c1:hover .cg3content {
+    visibility: visible;
+    opacity: 1;
+}
+
+#cg3c2:hover .cg3content {
+    visibility: visible;
+    opacity: 1;
+}
+
+#cg3c3:hover .cg3content {
+    visibility: visible;
+    opacity: 1;
+}
+
+#cg3c4:hover .cg3content {
+    visibility: visible;
+    opacity: 1;
+}
