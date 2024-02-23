@@ -11,8 +11,8 @@ body {
     display: flex;
     align-items: center;
     background-color: #4ad4a6;
-    position: fixed;
     width: 100%;
+    margin-bottom: 96px;
 }
 
 #navbar a {
@@ -61,4 +61,76 @@ body {
 
 #navbar .dropdown-container .dropdown-menu a:hover {
     background-color: #2ab486;
+}
+
+.petcard {
+    width: 70%;
+    max-width: 600px;
+    margin: 0px auto 48px;
+    border: 6px solid #2ab486;
+    border-radius: 56px;
+    padding: 24px;
+    background-color: #f5f5f598;
+}
+
+.petcard img {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+    object-position: center center;
+    border-radius: 36px;
+}
+
+.petcard h1 {
+    font-size: 48px;
+    text-align: center;
+}
+
+.petcard p {
+    text-align: center;
+    margin: 48px auto 24px;
+}
+
+@media screen and (max-width: 600px) {
+    #navbar {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #navbar a, #logo {
+        margin: 0px auto;
+    }
+    .dropdown-container {
+        transition: 
+            margin-bottom 0.5s
+        ;
+    }
+    #navbar a {
+        padding: 12px;
+        text-align: center;
+    }
+    .dropdown-container:hover {
+        margin-bottom: 133px;
+    }
+    .dropdown-container:hover a {
+        background-color: #2ab486;
+    }
+    #navbar .dropdown-container .dropdown-menu {
+        width: 100%;
+        text-align: center;
+    }
+
+    #navbar .dropdown-container .dropdown-menu a {
+        font-weight: normal;
+        background-color: #2ab486;
+    }
+
+    #navbar .dropdown-container .dropdown-menu a:hover {
+        background-color: #1e7d5e;
+    }
+
+    .petcard img {
+        height: 300px;
+    }
+
 }
