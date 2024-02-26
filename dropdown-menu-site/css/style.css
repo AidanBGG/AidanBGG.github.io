@@ -5,6 +5,9 @@
 body {
     margin: 0px;
     font-family: sans-serif;
+    background-image: url(../images/pattern-01.webp);
+    background-position: center center;
+    height: 100%;
 }
 
 #navbar {
@@ -75,10 +78,14 @@ body {
 
 .petcard img {
     width: 100%;
-    height: 600px;
+    height: 500px;
     object-fit: cover;
     object-position: center center;
     border-radius: 36px;
+}
+
+#pet3d .petcard img {
+    object-position: center bottom;
 }
 
 .petcard h1 {
