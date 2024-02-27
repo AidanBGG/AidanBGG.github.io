@@ -6,3 +6,105 @@ body {
     margin: 0px;
     font-family: sans-serif;
 }
+
+/****** navbar decoration ******/
+
+#navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #4A277F;
+    padding: 12px 24px;
+    height: 100px;
+}
+
+#navbar #navbut {
+    color: white;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0px 12px;
+}
+
+#logo {
+    height: 100%;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+}
+
+#logo img {
+    height: 100%;
+}
+
+#logo h2 {
+    margin-left: 12px;
+}
+
+#logo h2 {
+    font-family: "battleslab", sans-serif;
+}
+
+/****** body ******/
+
+#hero {
+    background-image: url(../images/magichero2.jpg);
+    background-position: center;
+    background-size: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+}
+
+#hero h1 {
+    font-size: 50px;
+    text-align: center;
+    width: 70%;
+    max-width: 600px;
+    font-family: "battleslab", sans-serif;
+}
+
+#hero p {
+    font-size: 20px;
+    text-align: center;
+    width: 70%;
+    max-width: 550px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 110px;
+}
+
+#divb4card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#offer {
+    font-size: 35px;
+    margin: 56px;
+}
+
+/****** card styling ******/
+
+#cardiv {
+    margin: 56px;
+}
+
+/****** footer ******/
+
+#footer {
+    background-color: #EBE2F7;
+    margin: 0px;
+    padding: 24px;
+}
+
+#footer h3 {
+    margin: 0px;
+    text-align: center;
+    color: #4A277F;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
