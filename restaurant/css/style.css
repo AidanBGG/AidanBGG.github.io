@@ -108,6 +108,14 @@ body {
     text-align: center;
 }
 
+#mh1 {
+    color: #425DCE;
+}
+
+#mdiv {
+    background-color: #D0D6F4;
+}
+
 /****** card styling ******/
 
 .cardiv {
@@ -152,6 +160,42 @@ body {
     font-weight: 600;
 }
 
+.bigcard {
+    width: 500px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.bigcard img {
+    height: 300px;
+}
+
+.bigcard h3 {
+    font-size: 36px;
+}
+
+.bigcard p {
+    font-size: 20px;
+}
+
+.mcard {
+    border-color: #425DCE;
+}
+
+.mcard h3 {
+    color: #425DCE;
+}
+
+.mcard img {
+    border-color: #C9720C;
+}
+
+.mcard p {
+    color: #C9720C;
+}
+
 /****** footer ******/
 
 #footer {
@@ -192,11 +236,11 @@ body {
         font-size: 20px;
     }
 
-    #hero h1 {
+    .hero h1 {
         font-size: 40px;
     }
 
-    #hero p {
+    .hero p {
         font-size: 16px;
     }
     
