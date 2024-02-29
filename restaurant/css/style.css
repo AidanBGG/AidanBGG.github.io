@@ -60,7 +60,7 @@ body {
 }
 
 #mhero {
-    background-image: url(../images/menuhero.jpg);
+    background-image: url(../images/menuhero2.jpg);
     background-position: center bottom;
 }
 
@@ -81,6 +81,10 @@ body {
     width: 70%;
     max-width: 600px;
     font-family: "battleslab", sans-serif;
+}
+
+#mhero h1 {
+    font-size: 64px;
 }
 
 .hero p {
@@ -160,7 +164,7 @@ body {
     font-weight: 600;
 }
 
-.bigcard {
+div.bigcard {
     width: 500px;
     height: 550px;
     display: flex;
@@ -184,9 +188,13 @@ body {
     border-color: #425DCE;
     width: 320px;
     height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .mcard h3 {
+    border-top: 0px;
     color: #425DCE;
 }
 
@@ -196,6 +204,7 @@ body {
 
 .mcard p {
     color: #C9720C;
+    border-bottom: 0px;
 }
 
 
@@ -217,7 +226,7 @@ body {
 
 /****** media query ******/
 
-@media screen and (max-width: 720px) and (min-width: 481px) {
+@media screen and (max-width: 720px) {
 
     #navbar {
         padding: 24px 64px;
@@ -244,8 +253,24 @@ body {
         font-size: 40px;
     }
 
+    #mhero h1 {
+        font-size: 40px;
+    }
+
     .hero p {
         font-size: 16px;
+    }
+
+    .hero {
+        height: 40vh;
+    }
+
+    div.bigcard {
+        width: 420px;
+    }
+
+    .bigh1 {
+        font-size: 30px;
     }
     
 }
