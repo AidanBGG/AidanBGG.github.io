@@ -64,8 +64,10 @@ body {
 #navbut:hover {
     background-color: #301953;
 }
+
 .navbarspacer {
     height: 100px;
+    background-color: #301953;
 }
 
 /****** body ******/
@@ -76,7 +78,7 @@ body {
 }
 
 #hhero {
-    background-image: url(../images/magichero2.jpg);
+    background-image: url(../images/magichero.jpg);
 }
 
 #mhero {
@@ -93,6 +95,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 60vh;
+    width: 100%;
 }
 
 .hero h1 {
@@ -101,6 +104,7 @@ body {
     width: 70%;
     max-width: 600px;
     font-family: "battleslab", sans-serif;
+    margin-bottom: 0px;
 }
 
 #mhero h1 {
@@ -108,12 +112,18 @@ body {
 }
 
 .hero p {
-    font-size: 18px;
+    font-size: 24px;
     text-align: center;
     width: 70%;
     max-width: 550px;
     font-family: "Open Sans", sans-serif;
     margin-top: 110px;
+    font-weight: 600;
+    margin-top: 36px;
+}
+
+#mhero p {
+    max-width: 100%;
 }
 
 .divb4card {
@@ -132,7 +142,7 @@ body {
 }
 
 #mh1 {
-    color: #425DCE;
+    color: #4A277F;
 }
 
 /****** card styling ******/
@@ -149,15 +159,14 @@ body {
 
 .card {
     max-width: 348px;
+    min-width: 300px;
     height: 400px;
     padding: 24px;
-    border: 4px solid #4A277F;
+    /* border: 4px solid #4A277F; */
     border-radius: 24px;
-    background-color: white;
+    background-color: #fef0cd;
     
-    transition: 
-        transform 0.25s,
-        box-shadow 0.25s
+    transition: all 0.25s
     ;
 }
 
@@ -193,18 +202,31 @@ div.bigcard {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    background-color: transparent;
+    border: 4px solid #C9720C;
 }
 
-.bigcard img {
+div.bigcard img {
     height: 300px;
 }
 
-.bigcard h3 {
+div.bigcard h3 {
     font-size: 36px;
+    color: #C9720C;
 }
 
-.bigcard p {
+div.bigcard p {
     font-size: 20px;
+    color: #C9720C;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hcard {
+    max-width: 300px;
+    min-width: 272px;
+    background-color: #EBE2F7;
 }
 
 .mcard {
@@ -219,7 +241,7 @@ div.bigcard {
 
 .mcard h3 {
     border-top: 0px;
-    color: #425DCE;
+    color: #4A277F;
 }
 
 .mcard img {
@@ -227,20 +249,30 @@ div.bigcard {
 }
 
 .mcard p {
-    color: #C9720C;
+    color: #4A277F;
     border-bottom: 0px;
 }
 
+div.bigcard, div.bigcard h3, div.bigcard p {
+    transition: all 0.25s;
+}
+
+.bigcard:hover h3, .bigcard:hover p {
+    color: #301953;
+}
 
 .card:hover {
     transform: scale(103%);
     box-shadow: 0px 0px 16px #4a277f79;
+    background-color: white;
 }
 
 .mcard:hover {
     transform: scale(103%);
-    box-shadow: 0px 0px 16px #425DCE79;
+    box-shadow: 0px 0px 16px #4A277F79;
 }
+
+
 
 /****** footer ******/
 
@@ -266,6 +298,10 @@ div.bigcard {
         height: 124px;
     }
 
+    .navbarspacer {
+        height: 124px;
+    }
+
     #navbar #navbut {
         margin: 0px auto;
     }
@@ -283,7 +319,8 @@ div.bigcard {
     }
 
     .hero h1 {
-        font-size: 40px;
+        font-size: 30px;
+        margin-bottom: 24px;
     }
 
     #mhero h1 {
@@ -292,6 +329,7 @@ div.bigcard {
 
     .hero p {
         font-size: 16px;
+        margin-top: 0px;
     }
 
     .hero {
