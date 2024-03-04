@@ -64,6 +64,9 @@ body {
 #navbut:hover {
     background-color: #301953;
 }
+.navbarspacer {
+    height: 100px;
+}
 
 /****** body ******/
 
