@@ -165,3 +165,7 @@ a.card-but:active {
     border-color: white;
     color: #464646;
 }
+
+#card-1, #card-3 {
+    display: none;
+}
