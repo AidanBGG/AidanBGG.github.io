@@ -8,16 +8,20 @@
 body {
     margin: 0px;
     font-family: sans-serif;
+    background: linear-gradient(
+        to bottom right, #222, #111
+    );
     background-image: url(../images/background.jpg);
     background-size: cover;
     background-attachment: fixed;
-    height: 100%;
+    height: 100vh;
     padding: 24px;
     color: white;
 }
 
 .everything {
     text-align: center;
+    
 }
 
 #header, #gal-header {
