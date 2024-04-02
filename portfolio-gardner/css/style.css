@@ -163,3 +163,9 @@ a.card-but:active {
 #card-1, #card-3 {
     display: none;
 }
+
+@media screen and (max-width: 480px) {
+    #galdiv {
+        columns: 1 auto;
+    }
+}
