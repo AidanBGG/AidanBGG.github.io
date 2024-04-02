@@ -93,9 +93,7 @@ a.card-but {
     height: 50px;
     border: #222 3px solid;
     transition: 
-        background-color 0.2s,
-        color 0.2s,
-        border-color 0.2s
+        all 0.2s
     ;
 }
 
@@ -110,21 +108,10 @@ a.card-but:active {
     background-color: #bebebe;
 }
 
-
-#card1-img {
-    background-image: url(../images/portme.jpg);
-    background-size: cover;
-}
-
-#card2-img {
+#card-img {
     background-image: url(../images/portme-2.jpg);
     background-size: cover;
-}
-
-#card3-img {
-    background-image: url(../images/portme-3.jpg);
-    background-size: cover;
-}
+}  
 
 #galdiv {
     margin-top: 48px;
@@ -132,6 +119,8 @@ a.card-but:active {
     column-gap: 12px;
     width: 80%;
     margin: 0px auto;
+    background-color: #111;
+    padding: 12px;
 }
 
 #galdiv img {
